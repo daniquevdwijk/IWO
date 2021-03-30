@@ -11,7 +11,10 @@ After getting the tweets, the user must remove the tweets with an empty user.loc
 Where `[normaltweets].txt` is the name of the file with the extracted tweets from karora and `[newtweets].txt` is the output file. The user can decide the names of the file as long as the input file is an existing file in the repository. <br />
 To remove whitelines in the file, the user can use delwhite.py. This program deletes whitelines in the given textfile. The command is: <br />
 `python3 delwhite.py [withwhite].txt > [withoutwhite].txt` <br />
-Where `[withwhite].txt` is the file with whitelines. `[withoutwhite].txt` is the output file. The user can decide the names of the files as long as the input file is an existing file in the repository.
+Where `[withwhite].txt` is the file with whitelines. `[withoutwhite].txt` is the output file. The user can decide the names of the files as long as the input file is an existing file in the repository. <br />
+
+### Counting the length
+To count the lines (=tweets) of the files you can use the last two commands in commands.sh. The two commands are almost the same, but the first command is to count the lines of all the text files in that directory. The second command is the command to count the lines of a specific document.
 
 ## Info
 Date: 30-03-2021 <br />
